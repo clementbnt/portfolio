@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio de Clément BONET, étudiant en Terminale Bac Pro CIEL — Réseaux, informatique et cybersécurité. En recherche de stage ou d'alternance." />
+  <title>Clément BONET — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Clément BONET</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">
+            <i class="bi bi-person-lines-fill" aria-hidden="true"></i> Accueil &amp; Compétences
+          </a></li>
+        <li><a href="contact.html">
+            <i class="bi bi-envelope" aria-hidden="true"></i> Contact
+          </a></li>
+      </ul>
+      <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <header class="hero" id="accueil">
+    <!-- Cercle décoratif -->
+    <div class="hero-deco" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Photo de profil
+             Pour ajouter votre photo :
+             1. Ajoutez votre image dans le dossier (ex: img/photo.jpg)
+             2. Remplacez le contenu de hero-avatar par :
+                <img src="img/photo.jpg" alt="Clément BONET"> -->
+        <img src="Clément-BONET.png" alt="Clément BONET"
+          style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+        <i class="bi bi-prsoen" aria-hidden="true"></i>
+      </div>
+
+      <div class="hero-badge">
+        <span class="hero-badge-dot" aria-hidden="true"></span>
+        Disponible — Stage &amp; Alternance
+      </div>
+
+      <h1><em>Clément</em> BONET</h1>
+
+      <p class="hero-subtitle">
+        Étudiant en Terminale Bac Pro CIEL · Réseaux, informatique &amp; cybersécurité
+      </p>
+
+      <p class="hero-desc">
+        Passionné par les réseaux, l'informatique, la supervision, le dépannage et les nouvelles technologies.
+        Je cherche à mettre mes compétences en pratique dans un environnement professionnel stimulant.
+      </p>
+
+      <div class="hero-cta">
+        <a href="contact.html" class="btn-primary">
+          <i class="bi bi-send" aria-hidden="true"></i> Me contacter
+        </a>
+        <!-- CV PDF — décommentez quand votre fichier est prêt
+          <a href="CV Personelle.pdf" download class="btn-secondary">
+            <i class="bi bi-file-earmark-arrow-down"></i> Télécharger mon CV
+          </a> -->
+        <a href="CV Personelle.pdf" download class="btn-secondary">
+          <i class="bi bi-file-earmark-arrow-down"></i> Télécharger mon CV
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================== COMPÉTENCES ======================== -->
+    <section class="section section-white" id="competences">
+      <div class="container">
+        <p class="section-label">Compétences</p>
+        <h2 class="section-title">Compétences professionnelles</h2>
+        <p class="section-subtitle">Mes domaines de maîtrise acquis en formation et en pratique</p>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <h3>Réseaux</h3>
+            <p class="skill-desc">Configuration de réseaux locaux, adressage IP, câblage structuré, switchs et routeurs,
+              Wi-Fi, diagnostic réseau.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">LAN / WAN</span>
+              <span class="skill-tag">Adressage IP</span>
+              <span class="skill-tag">Switch / Routeur</span>
+              <span class="skill-tag">Wi-Fi</span>
+              <span class="skill-tag">Câblage</span>
+              <span class="skill-tag">Diagnostic</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Systèmes &amp; Support informatique</h3>
+            <p class="skill-desc">Installation et configuration de postes, environnement Windows, dépannage matériel et
+              logiciel, assistance utilisateurs.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Windows</span>
+              <span class="skill-tag">Configuration postes</span>
+              <span class="skill-tag">Dépannage matériel</span>
+              <span class="skill-tag">Assistance utilisateurs</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Cybersécurité</h3>
+            <p class="skill-desc">Bonnes pratiques de sécurité informatique, protection des données, sensibilisation aux
+              risques et menaces.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Bonnes pratiques</span>
+              <span class="skill-tag">Protection données</span>
+              <span class="skill-tag">Sensibilisation</span>
+              <span class="skill-tag">Gestion des risques</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Supervision &amp; Administration</h3>
+            <p class="skill-desc">Suivi de parc informatique, supervision de réseaux et utilisation d'outils
+              d'administration système.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Monitoring</span>
+              <span class="skill-tag">Supervision réseau</span>
+              <span class="skill-tag">Outils admin</span>
+              <span class="skill-tag">Suivi de parc</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Programmation &amp; Projets numériques</h3>
+            <p class="skill-desc">Bases du développement logiciel, création de projets numériques et montage vidéo.</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Développement</span>
+              <span class="skill-tag">Projets numériques</span>
+              <span class="skill-tag">Montage vidéo</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== POINTS FORTS ======================== -->
+    <section class="section section-dotted" id="points-forts">
+      <div class="container">
+        <p class="section-label">Points forts</p>
+        <h2 class="section-title">Ce qui me caractérise</h2>
+        <p class="section-subtitle">Qualités que j'apporte au quotidien</p>
+
+        <div class="strengths-grid">
+          <div class="strength-item">
+            <h4>Rigoureux</h4>
+            <p>Je travaille avec méthode et précision, en faisant attention aux détails.</p>
+          </div>
+          <div class="strength-item">
+            <h4>Curieux</h4>
+            <p>Toujours avec l'envie d'apprendre de nouvelles compétences pro.</p>
+          </div>
+          <div class="strength-item">
+            <h4>Autonome</h4>
+            <p>Capable de prendre des initiatives et de résoudre des problèmes seul.</p>
+          </div>
+          <div class="strength-item">
+            <h4>À l'écoute</h4>
+            <p>Attentif aux besoins des utilisateurs et des équipes.</p>
+          </div>
+          <div class="strength-item">
+            <h4>Passionné</h4>
+            <p>Intérêt profond pour l'informatique, les réseaux et la cybersécurité.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== OBJECTIF ======================== -->
+    <section class="section section-white" id="objectif">
+      <div class="container">
+        <p class="section-label">Objectif</p>
+        <h2 class="section-title">Objectif professionnel</h2>
+        <p class="section-subtitle">Ce que je recherche en ce moment</p>
+
+        <div class="objective-card">
+          <div class="objective-icon" aria-hidden="true">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <div class="objective-body">
+            <p>
+              Actuellement en <strong>Terminale Bac Pro CIEL</strong>, je suis à la recherche
+              d'un <strong>stage</strong> ou d'une <strong>alternance</strong> dans les domaines de
+              l'<strong>informatique</strong>, des <strong>réseaux</strong> ou de la <strong>cybersécurité</strong>.
+              Je souhaite intégrer une équipe dynamique où je pourrai apprendre, progresser
+              et contribuer concrètement à des projets techniques.
+            </p>
+            <div class="objective-tags">
+              <span class="obj-tag"><i class="bi bi-search" aria-hidden="true"></i> Stage</span>
+              <span class="obj-tag"><i class="bi bi-briefcase" aria-hidden="true"></i> Alternance</span>
+              <span class="obj-tag"><i class="bi bi-geo-alt" aria-hidden="true"></i> Pays de la Loire</span>
+              <span class="obj-tag"><i class="bi bi-wifi" aria-hidden="true"></i> Réseaux</span>
+              <span class="obj-tag"><i class="bi bi-shield-check" aria-hidden="true"></i> Cybersécurité</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== PROJETS ======================== -->
+    <section class="section section-dotted" id="projets" style="padding-top:3.5rem;">
+      <div class="container">
+        <p class="section-label">Projets</p>
+        <h2 class="section-title">Mes projets</h2>
+        <p class="section-subtitle">Projets réalisés en formation et en autonomie</p>
+
+        <!-- Pour ajouter un projet, remplacez ce bloc par une grille skills-grid
+             avec des articles skill-card. -->
+        <div class="projects-placeholder">
+          <span class="ph-icon" aria-hidden="true"><i class="bi bi-folder-plus"></i></span>
+          <p>
+            <strong>Section en construction.</strong><br>
+            Mes projets seront ajoutés ici prochainement.<br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2026 <a href="index.html">Clément BONET</a></p>
+        <nav class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
